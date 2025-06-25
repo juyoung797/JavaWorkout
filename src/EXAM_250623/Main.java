@@ -4,30 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-class Student {
-    String name;
-    double KoreanScore;
-    double EnglishScore;
-    double MathScore;
-    double averageScore;
-    double totalScore;
-    public Student (String name, double KoreanScore, double EnglishScore, double MathScore) {
-        this.name = name;
-        this.KoreanScore = KoreanScore;
-        this.EnglishScore = EnglishScore;
-        this.MathScore = MathScore;
-    }
-    double average() {
-        averageScore = (KoreanScore + EnglishScore + MathScore) / 3;
-        return averageScore;
-    }
-    double total() {
-        totalScore = KoreanScore + EnglishScore + MathScore;
-        return totalScore;
-    }
-}
-
-
 
 public class Main {
     public static void main(String[] args) {
